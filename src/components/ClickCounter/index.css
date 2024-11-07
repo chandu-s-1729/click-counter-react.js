@@ -1,0 +1,49 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-color: #f1f5f8;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-container {
+  max-width: 640px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+  color: #2d3a35;
+  font-family: 'Roboto';
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.description {
+  color: #2d3a35;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.click-button {
+  padding: 10px 20px 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.counting {
+  color: #c20a72;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 48px;
+}
